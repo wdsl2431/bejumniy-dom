@@ -1,0 +1,51 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="QZIW2b6SLLYyRxINn0A7">
+    <mxGraphModel dx="1414" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="61gfcr2yZadz4HaiTruR-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Блок питания&lt;/div&gt;&lt;div&gt;USB-C&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="360" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="61gfcr2yZadz4HaiTruR-7" edge="1" parent="1" source="61gfcr2yZadz4HaiTruR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="61gfcr2yZadz4HaiTruR-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="61gfcr2yZadz4HaiTruR-13" edge="1" parent="1" source="61gfcr2yZadz4HaiTruR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="61gfcr2yZadz4HaiTruR-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="61gfcr2yZadz4HaiTruR-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;контроллер АКБ&lt;/div&gt;&lt;div&gt;аварийного питания&lt;br&gt;+стабилизатор 5В&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="360" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="61gfcr2yZadz4HaiTruR-9" edge="1" parent="1" source="61gfcr2yZadz4HaiTruR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="61gfcr2yZadz4HaiTruR-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="61gfcr2yZadz4HaiTruR-11" edge="1" parent="1" source="61gfcr2yZadz4HaiTruR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="61gfcr2yZadz4HaiTruR-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="61gfcr2yZadz4HaiTruR-20" edge="1" parent="1" source="61gfcr2yZadz4HaiTruR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="61gfcr2yZadz4HaiTruR-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="61gfcr2yZadz4HaiTruR-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;AMS1117-3.3&lt;/div&gt;&lt;div&gt;3.3В&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="360" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="61gfcr2yZadz4HaiTruR-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;интерфейс&lt;/div&gt;&lt;div&gt;RS-485&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="560" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="61gfcr2yZadz4HaiTruR-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="DWIN Display" vertex="1">
+          <mxGeometry height="70" width="120" x="560" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="61gfcr2yZadz4HaiTruR-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="STM32f407" vertex="1">
+          <mxGeometry height="70" width="120" x="360" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="61gfcr2yZadz4HaiTruR-16" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="61gfcr2yZadz4HaiTruR-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="170" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="61gfcr2yZadz4HaiTruR-19" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="ESP32" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="395" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
