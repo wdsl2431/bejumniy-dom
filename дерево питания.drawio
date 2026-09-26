@@ -13,11 +13,11 @@
         <mxCell id="61gfcr2yZadz4HaiTruR-13" edge="1" parent="1" source="61gfcr2yZadz4HaiTruR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="61gfcr2yZadz4HaiTruR-5" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="61gfcr2yZadz4HaiTruR-21" edge="1" parent="1" source="61gfcr2yZadz4HaiTruR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="61gfcr2yZadz4HaiTruR-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="61gfcr2yZadz4HaiTruR-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;контроллер АКБ&lt;/div&gt;&lt;div&gt;аварийного питания&lt;br&gt;+стабилизатор 5В&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="120" x="360" y="245" as="geometry" />
-        </mxCell>
-        <mxCell id="61gfcr2yZadz4HaiTruR-9" edge="1" parent="1" source="61gfcr2yZadz4HaiTruR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="61gfcr2yZadz4HaiTruR-8" value="">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="61gfcr2yZadz4HaiTruR-11" edge="1" parent="1" source="61gfcr2yZadz4HaiTruR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="61gfcr2yZadz4HaiTruR-10" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -32,10 +32,10 @@
           <mxGeometry height="70" width="120" x="560" y="245" as="geometry" />
         </mxCell>
         <mxCell id="61gfcr2yZadz4HaiTruR-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="DWIN Display" vertex="1">
-          <mxGeometry height="70" width="120" x="560" y="390" as="geometry" />
+          <mxGeometry height="70" width="120" x="160" y="245" as="geometry" />
         </mxCell>
         <mxCell id="61gfcr2yZadz4HaiTruR-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="STM32f407" vertex="1">
-          <mxGeometry height="70" width="120" x="360" y="540" as="geometry" />
+          <mxGeometry height="70" width="120" x="560" y="390" as="geometry" />
         </mxCell>
         <mxCell id="61gfcr2yZadz4HaiTruR-16" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="61gfcr2yZadz4HaiTruR-2" value="">
           <mxGeometry relative="1" as="geometry">
