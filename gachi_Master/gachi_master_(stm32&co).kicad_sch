@@ -4598,7 +4598,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 111.76) (xy 307.34 111.76)
+			(xy 237.49 111.76) (xy 314.96 111.76)
 		)
 		(stroke
 			(width 0)
@@ -9309,85 +9309,6 @@
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 311.15 111.76 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e00db5d7-9968-471a-8396-2c0b08c53088")
-		(property "Reference" "R6"
-			(at 311.15 106.426 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "300"
-			(at 311.15 108.966 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 311.15 113.538 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 311.15 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 311.15 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3600a01f-787b-44ec-9258-609d84da6789")
-		)
-		(pin "2"
-			(uuid "28495873-3b40-47ee-9f2a-0c5b9551eb9a")
-		)
-		(instances
-			(project "gachi_Master"
-				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
-					(reference "R6")
 					(unit 1)
 				)
 			)

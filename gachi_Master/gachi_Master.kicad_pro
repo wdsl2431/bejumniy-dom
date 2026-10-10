@@ -669,9 +669,14 @@
         "filename": "gachi_master_(esp&co).kicad_sch",
         "name": "gachi_master (ESP&Co)",
         "uuid": "a284556f-afbb-4c65-88e8-5140b6918fac"
+      },
+      {
+        "filename": "gachi_master_(rs-485).kicad_sch",
+        "name": "gachi_master (RS-485)",
+        "uuid": "45c981da-2a3e-4b08-972c-887aae56a7e8"
       }
     ],
-    "used_designators": "BT2,D1,L2,#PWR6,#PWR9-10,#PWR12-25,C13-32,R3-9,U1-2,VD1-5,J2,SW1-2,Y1,ZQ2",
+    "used_designators": "BT2,D1,L2,#PWR6,#PWR9-10,#PWR12-33,C13-38,R3-15,U1-2,VD1-6,J1-2,SW1-3,Y1,ZQ2",
     "variants": []
   },
   "sheets": [
@@ -686,6 +691,10 @@
     [
       "a284556f-afbb-4c65-88e8-5140b6918fac",
       "gachi_master (ESP&Co)"
+    ],
+    [
+      "45c981da-2a3e-4b08-972c-887aae56a7e8",
+      "gachi_master (RS-485)"
     ]
   ],
   "text_variables": {},
