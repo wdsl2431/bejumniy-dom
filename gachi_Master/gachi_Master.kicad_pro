@@ -642,7 +642,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "kicad-embed://gost_landscape.kicad_wks",
+    "page_layout_descr_file": "kicad-embed://A3_landscape.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "space_save_all_events": true,
@@ -664,9 +664,14 @@
         "filename": "gachi_master_(stm32&co).kicad_sch",
         "name": "gachi_Master (STM32&Co)",
         "uuid": "ab3207bc-bcd8-4d0f-899e-74aada9f2221"
+      },
+      {
+        "filename": "gachi_master_(esp&co).kicad_sch",
+        "name": "gachi_master (ESP&Co)",
+        "uuid": "a284556f-afbb-4c65-88e8-5140b6918fac"
       }
     ],
-    "used_designators": "BT2,D1,L2,#PWR6,#PWR9-10,#PWR12-23,C13-30,R3-9,U1,VD1-5,J2,SW1-2,Y1",
+    "used_designators": "BT2,D1,L2,#PWR6,#PWR9-10,#PWR12-25,C13-32,R3-9,U1-2,VD1-5,J2,SW1-2,Y1,ZQ2",
     "variants": []
   },
   "sheets": [
@@ -677,6 +682,10 @@
     [
       "ab3207bc-bcd8-4d0f-899e-74aada9f2221",
       "gachi_Master (STM32&Co)"
+    ],
+    [
+      "a284556f-afbb-4c65-88e8-5140b6918fac",
+      "gachi_master (ESP&Co)"
     ]
   ],
   "text_variables": {},
