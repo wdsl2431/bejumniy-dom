@@ -2462,7 +2462,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "562c3942-785a-4f33-8a9a-9ca66636c03b")
-		(property "Reference" "X17"
+		(property "Reference" "X18"
 			(at 112.522 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2541,7 +2541,7 @@
 		(instances
 			(project "gachi_Master"
 				(path "/2acb42a7-46cb-4560-9dc1-96724f654265"
-					(reference "X17")
+					(reference "X18")
 					(unit 1)
 				)
 			)
@@ -2897,7 +2897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cb784c4-f846-4df3-a04e-4d836d3da915")
-		(property "Reference" "X18"
+		(property "Reference" "X19"
 			(at 135.255 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2974,7 +2974,7 @@
 		(instances
 			(project "gachi_Master"
 				(path "/2acb42a7-46cb-4560-9dc1-96724f654265"
-					(reference "X18")
+					(reference "X19")
 					(unit 1)
 				)
 			)
