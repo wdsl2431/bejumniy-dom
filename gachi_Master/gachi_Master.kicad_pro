@@ -533,7 +533,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://A3_landscape.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -674,9 +674,19 @@
         "filename": "gachi_master_(rs-485).kicad_sch",
         "name": "gachi_master (RS-485)",
         "uuid": "45c981da-2a3e-4b08-972c-887aae56a7e8"
+      },
+      {
+        "filename": "gachi_master_(sd).kicad_sch",
+        "name": "gachi_master (SD)",
+        "uuid": "4d82be97-f5c1-4a93-b27b-502abf83febd"
+      },
+      {
+        "filename": "gachi_master_(led).kicad_sch",
+        "name": "gachi_master (LED)",
+        "uuid": "2acb42a7-46cb-4560-9dc1-96724f654265"
       }
     ],
-    "used_designators": "BT2,D1,L2,#PWR6,#PWR9-10,#PWR12-33,C13-38,R3-15,U1-2,VD1-6,J1-2,SW1-3,Y1,ZQ2",
+    "used_designators": "BT2,D1,L2,#PWR6,#PWR9-10,#PWR12-44,C13-42,R3-28,U1-2,VD1-13,J1-2,SW1-5,Y1,ZQ2,X8-18",
     "variants": []
   },
   "sheets": [
@@ -695,6 +705,14 @@
     [
       "45c981da-2a3e-4b08-972c-887aae56a7e8",
       "gachi_master (RS-485)"
+    ],
+    [
+      "4d82be97-f5c1-4a93-b27b-502abf83febd",
+      "gachi_master (SD)"
+    ],
+    [
+      "2acb42a7-46cb-4560-9dc1-96724f654265",
+      "gachi_master (LED)"
     ]
   ],
   "text_variables": {},

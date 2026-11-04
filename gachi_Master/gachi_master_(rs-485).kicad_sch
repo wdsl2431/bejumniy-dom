@@ -186,6 +186,212 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -923,6 +1129,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GNDREF"
 			(power global)
 			(pin_numbers
@@ -1075,11 +1471,35 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 300.99 123.19)
+		(end 354.33 200.66)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0fc67016-727e-47a9-b6b4-e37e834e9631")
+	)
 	(junction
 		(at 203.2 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04d76d1b-94b7-4a51-a3e3-f04803649430")
+	)
+	(junction
+		(at 308.61 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "076dd7e2-a9b1-431d-83de-7231a26d399f")
+	)
+	(junction
+		(at 308.61 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "125f3a38-f2e6-44c7-b971-a008509c7ca1")
 	)
 	(junction
 		(at 170.18 147.32)
@@ -1088,16 +1508,106 @@
 		(uuid "39aff17d-d6b9-4c4c-9d0a-1ef2fb00bb96")
 	)
 	(junction
-		(at 231.14 147.32)
+		(at 306.07 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3eaec8b2-4cc9-403e-822c-ed63e0f88bb3")
+	)
+	(junction
+		(at 306.07 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "457b379d-5f43-4d10-819d-45f5ae0d7b1d")
+	)
+	(junction
+		(at 308.61 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46add9c0-3096-4964-ac5b-5a2d830cff59")
+	)
+	(junction
+		(at 308.61 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50f4ff02-09cd-4fc8-bf27-f1e97362b9a4")
+	)
+	(junction
+		(at 308.61 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62e6e855-d21a-4531-b9d7-a1228c47821d")
+	)
+	(junction
+		(at 306.07 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6850ec2f-8c68-4eb3-97ae-f0beeb1cf0c6")
+	)
+	(junction
+		(at 308.61 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78b9c1d9-ef81-4e87-9438-a3b987b888da")
+	)
+	(junction
+		(at 306.07 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79d3f43d-1e54-44ac-8eea-1cd08a6c5d30")
+	)
+	(junction
+		(at 306.07 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ef5beb6-aea4-4492-adc7-eca643f13c09")
+	)
+	(junction
+		(at 308.61 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85e4e8a0-efc8-49f1-aa56-cf2339c4d939")
+	)
+	(junction
+		(at 233.68 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87b8d017-19fa-4ea2-9ea7-162bc2f8d693")
 	)
 	(junction
-		(at 231.14 139.7)
+		(at 306.07 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92aa3deb-0795-4849-8a0c-b2296cc732dc")
+	)
+	(junction
+		(at 306.07 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9432b708-682f-47f4-b930-3de9b5683185")
+	)
+	(junction
+		(at 308.61 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0a2ff2a-4184-4d3b-87b6-d3aad5239730")
+	)
+	(junction
+		(at 231.14 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a15232fa-9933-46dd-8329-3a0b2b48d0e2")
+	)
+	(junction
+		(at 306.07 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4e5cc77-1c1b-44c1-a974-eebd5bf26fd5")
+	)
+	(junction
+		(at 306.07 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df0149f1-f87e-46b7-b073-34ed3702929f")
 	)
 	(junction
 		(at 210.82 101.6)
@@ -1111,6 +1621,16 @@
 		(color 0 0 0 0)
 		(uuid "f124d264-d9af-4cfe-aa6f-a1e51cccb19f")
 	)
+	(junction
+		(at 308.61 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1b72660-d8be-4f50-b741-c26dd5e3ea89")
+	)
+	(no_connect
+		(at 236.22 125.73)
+		(uuid "6cd50bbe-7d1e-45a9-9017-98e27a7da4d2")
+	)
 	(wire
 		(pts
 			(xy 198.12 109.22) (xy 203.2 109.22)
@@ -1123,13 +1643,93 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 140.97) (xy 224.79 140.97)
+			(xy 308.61 146.05) (xy 308.61 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d25cdae-3315-43b5-b017-9c337e906a2b")
+	)
+	(wire
+		(pts
+			(xy 220.98 140.97) (xy 226.06 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0ff202d6-ad66-487d-9dfa-a60bc5d03b90")
+	)
+	(wire
+		(pts
+			(xy 308.61 133.35) (xy 308.61 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13118a49-c5ad-4493-88a9-8f5a38375cfe")
+	)
+	(wire
+		(pts
+			(xy 306.07 143.51) (xy 320.04 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13affbbf-1a08-4c3c-8431-526827ce72c2")
+	)
+	(wire
+		(pts
+			(xy 231.14 121.92) (xy 231.14 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "186b0771-67b9-4501-8b21-90132dc2e251")
+	)
+	(wire
+		(pts
+			(xy 306.07 163.83) (xy 320.04 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d2ee02a-0f80-46d0-9b09-0a2becc6781e")
+	)
+	(wire
+		(pts
+			(xy 306.07 143.51) (xy 306.07 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9734b8-fce4-44a0-bb1b-3aecdff9c9d5")
+	)
+	(wire
+		(pts
+			(xy 306.07 168.91) (xy 306.07 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e62ea19-8566-4bfa-b89b-2ae791fb7b83")
+	)
+	(wire
+		(pts
+			(xy 308.61 171.45) (xy 320.04 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "229a4a5b-7499-46b5-b1a6-1930cd3ff952")
 	)
 	(wire
 		(pts
@@ -1143,6 +1743,46 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 176.53) (xy 308.61 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2691fb86-bac5-442f-86cb-c955a06a3e2b")
+	)
+	(wire
+		(pts
+			(xy 308.61 186.69) (xy 308.61 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2902f613-4df5-4499-b25a-9c92fb725898")
+	)
+	(wire
+		(pts
+			(xy 306.07 158.75) (xy 320.04 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29c6ea62-1948-499c-844a-1b0d84f61f84")
+	)
+	(wire
+		(pts
+			(xy 308.61 151.13) (xy 308.61 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce7d6bd-9012-450c-8674-aefa92c39394")
+	)
+	(wire
+		(pts
 			(xy 187.96 152.4) (xy 195.58 152.4)
 		)
 		(stroke
@@ -1153,7 +1793,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 142.24) (xy 250.19 139.7)
+			(xy 251.46 142.24) (xy 251.46 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1173,13 +1813,13 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 139.7) (xy 231.14 139.7)
+			(xy 308.61 171.45) (xy 308.61 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3eaaace7-03c6-4584-b2ce-90b9df3f64ce")
+		(uuid "472d2247-d1ad-4ad7-83ac-4def1e5576f6")
 	)
 	(wire
 		(pts
@@ -1203,7 +1843,57 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 140.97) (xy 224.79 139.7)
+			(xy 306.07 148.59) (xy 320.04 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "486c8a38-461f-4ad5-b125-e001aeaf8797")
+	)
+	(wire
+		(pts
+			(xy 306.07 153.67) (xy 320.04 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a68936-9382-4d28-b2ee-6b3d08a3fc8a")
+	)
+	(wire
+		(pts
+			(xy 306.07 133.35) (xy 306.07 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b75a976-e6eb-4e24-b55a-7d0e3e48c3f4")
+	)
+	(wire
+		(pts
+			(xy 306.07 179.07) (xy 320.04 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c135e18-92ac-4bcd-b0dc-8e9241f76b7f")
+	)
+	(wire
+		(pts
+			(xy 308.61 161.29) (xy 308.61 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548d6cbc-42d8-43de-b8b9-3e5886df12c9")
+	)
+	(wire
+		(pts
+			(xy 226.06 140.97) (xy 226.06 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1213,13 +1903,73 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 147.32) (xy 231.14 147.32)
+			(xy 224.79 147.32) (xy 250.19 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "55a9fc00-cf95-4663-869a-d2b909a00a77")
+	)
+	(wire
+		(pts
+			(xy 308.61 146.05) (xy 320.04 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5750e56c-2196-4c3e-b2a7-f55ed8a1c060")
+	)
+	(wire
+		(pts
+			(xy 308.61 166.37) (xy 320.04 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cfba362-fcf5-4a3d-86c3-cf427c59fe9d")
+	)
+	(wire
+		(pts
+			(xy 306.07 184.15) (xy 306.07 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f501919-fec9-4e38-b32f-ba923f22644a")
+	)
+	(wire
+		(pts
+			(xy 308.61 166.37) (xy 308.61 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60df7379-1149-4dd2-b46e-3f56e5e52865")
+	)
+	(wire
+		(pts
+			(xy 306.07 168.91) (xy 320.04 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "632079be-b544-4037-8ac6-d3556edeae37")
+	)
+	(wire
+		(pts
+			(xy 306.07 148.59) (xy 306.07 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a617948-e93c-41ad-96ae-530e623c2a0a")
 	)
 	(wire
 		(pts
@@ -1233,6 +1983,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 191.77) (xy 308.61 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e53882f-8cfa-405b-9521-0b1ae644716e")
+	)
+	(wire
+		(pts
 			(xy 195.58 142.24) (xy 187.96 142.24)
 		)
 		(stroke
@@ -1240,6 +2000,16 @@
 			(type default)
 		)
 		(uuid "75166eb1-1028-4b7c-99fc-a0ac3795144e")
+	)
+	(wire
+		(pts
+			(xy 233.68 135.89) (xy 233.68 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7add8989-494b-45f0-aad6-2d47e1106c96")
 	)
 	(wire
 		(pts
@@ -1260,6 +2030,16 @@
 			(type default)
 		)
 		(uuid "7e1555df-e1d1-46ec-8a48-b0ce118f3a4a")
+	)
+	(wire
+		(pts
+			(xy 308.61 161.29) (xy 320.04 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f7937cd-defa-4138-a484-303e5c6626e9")
 	)
 	(wire
 		(pts
@@ -1293,6 +2073,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 186.69) (xy 320.04 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95554445-804f-42f6-8be9-5969ee3075a4")
+	)
+	(wire
+		(pts
 			(xy 220.98 146.05) (xy 224.79 146.05)
 		)
 		(stroke
@@ -1300,6 +2090,46 @@
 			(type default)
 		)
 		(uuid "96ca3d34-2718-49d7-bc2e-5072abcae866")
+	)
+	(wire
+		(pts
+			(xy 306.07 158.75) (xy 306.07 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "975ddc6e-7a0b-4549-8bb4-27a09f53176d")
+	)
+	(wire
+		(pts
+			(xy 306.07 153.67) (xy 306.07 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9876e55b-e360-47d7-93ee-3e3314dc9ab1")
+	)
+	(wire
+		(pts
+			(xy 306.07 163.83) (xy 306.07 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ece121-cbcf-4767-bf79-676d93cd571f")
+	)
+	(wire
+		(pts
+			(xy 306.07 184.15) (xy 320.04 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f1ee0de-57b5-4335-85c2-a99a67466ac4")
 	)
 	(wire
 		(pts
@@ -1323,13 +2153,43 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 139.7) (xy 231.14 139.7)
+			(xy 226.06 121.92) (xy 251.46 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b20e5e36-1e77-44fc-af36-97d0d956bebe")
+	)
+	(wire
+		(pts
+			(xy 306.07 173.99) (xy 320.04 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2fe86d3-bb0c-459d-9c29-7f924769f9bc")
+	)
+	(wire
+		(pts
+			(xy 320.04 189.23) (xy 306.07 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b723f143-a998-4881-b776-784f00405217")
+	)
+	(wire
+		(pts
+			(xy 306.07 179.07) (xy 306.07 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8bb4fb7-bd76-4f71-afce-26f0df733b8c")
 	)
 	(wire
 		(pts
@@ -1363,6 +2223,26 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 181.61) (xy 308.61 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be75e842-64ae-4f81-b44d-06551991ed2a")
+	)
+	(wire
+		(pts
+			(xy 308.61 176.53) (xy 320.04 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be94a92b-00e6-43f2-93c7-5a1a6dc5c82a")
+	)
+	(wire
+		(pts
 			(xy 193.04 109.22) (xy 198.12 109.22)
 		)
 		(stroke
@@ -1393,6 +2273,26 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 173.99) (xy 306.07 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5580968-79b6-4ff8-8ec6-9c7eacbe667d")
+	)
+	(wire
+		(pts
+			(xy 308.61 156.21) (xy 308.61 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5757f2a-4fc1-4bcc-b9a8-044b6bfecffb")
+	)
+	(wire
+		(pts
 			(xy 170.18 161.29) (xy 200.66 161.29)
 		)
 		(stroke
@@ -1403,13 +2303,13 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 147.32) (xy 250.19 147.32)
+			(xy 308.61 181.61) (xy 320.04 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfac656e-a7fe-4982-a469-bdf16c6720dc")
+		(uuid "d0330b74-f532-48de-9b27-e87bed4e06e2")
 	)
 	(wire
 		(pts
@@ -1423,13 +2323,23 @@
 	)
 	(wire
 		(pts
-			(xy 254 142.24) (xy 250.19 142.24)
+			(xy 254 142.24) (xy 251.46 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e4ba25f4-6b45-4771-ab21-bd6c2d93b6df")
+	)
+	(wire
+		(pts
+			(xy 308.61 151.13) (xy 320.04 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f295e2e1-2684-4c1c-a756-f6116bdc011e")
 	)
 	(wire
 		(pts
@@ -1450,6 +2360,16 @@
 			(type default)
 		)
 		(uuid "f802215d-a0d9-4013-b47b-0eb5f315bb6d")
+	)
+	(wire
+		(pts
+			(xy 308.61 156.21) (xy 320.04 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbad5e25-4704-4be6-bdcd-0b6229e08200")
 	)
 	(global_label "RS485_RTS"
 		(shape input)
@@ -1544,6 +2464,338 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 325.12 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02728676-2e8a-482e-9a39-554b08e77f2b")
+		(property "Reference" "X13"
+			(at 327.66 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 327.66 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical"
+			(at 325.12 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 325.12 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e14c140d-3886-420f-8f71-587decc794a3")
+		)
+		(pin "2"
+			(uuid "f93dfc72-8128-413c-b29b-1baf7c62d64f")
+		)
+		(instances
+			(project "gachi_Master"
+				(path "/45c981da-2a3e-4b08-972c-887aae56a7e8"
+					(reference "X13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 325.12 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04872a24-e89d-4af8-a374-67a77fde77a6")
+		(property "Reference" "X12"
+			(at 327.66 168.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 327.66 171.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical"
+			(at 325.12 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 325.12 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ffa05de-6227-4c64-beef-f2d24030ef2b")
+		)
+		(pin "2"
+			(uuid "d5a72851-e40f-4335-b085-9c2dbf4c2ff7")
+		)
+		(instances
+			(project "gachi_Master"
+				(path "/45c981da-2a3e-4b08-972c-887aae56a7e8"
+					(reference "X12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 233.68 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c3b2d1d-8027-4f6c-a36a-fbb3a3207245")
+		(property "Reference" "SW4"
+			(at 238.76 129.5399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 238.76 132.0799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_Copal_CVS-01xB_W5.9mm_P1mm"
+			(at 233.68 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 233.68 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e7717eef-ddfa-4f31-b03c-4bfbf20c4010")
+		)
+		(pin "1"
+			(uuid "ed7fd790-5f94-44f2-8de6-4b781ca13286")
+		)
+		(pin "2"
+			(uuid "3e36eddd-61cc-4d79-b67f-12c2c8c962de")
+		)
+		(instances
+			(project "gachi_Master"
+				(path "/45c981da-2a3e-4b08-972c-887aae56a7e8"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 306.07 128.27 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19296192-253a-4ce2-ada4-b282c79d902a")
+		(property "Reference" "X17"
+			(at 309.88 127.6349 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 309.88 130.1749 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+			(at 306.07 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 306.07 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b9a62410-afb5-4a55-b203-df1acb81bde5")
+		)
+		(pin "1"
+			(uuid "cf17be4c-c7af-464d-9e07-623fa25d09dc")
+		)
+		(instances
+			(project "gachi_Master"
+				(path "/45c981da-2a3e-4b08-972c-887aae56a7e8"
+					(reference "X17")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1945,6 +3197,252 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 325.12 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f26eea8-8c4b-4ea5-9769-bdfb676dce9e")
+		(property "Reference" "X7"
+			(at 327.66 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 327.66 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical"
+			(at 325.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 325.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "600d7490-eb17-47a1-8859-7226c3018cf0")
+		)
+		(pin "2"
+			(uuid "0e0b5170-f9da-40a9-9069-61f08fac32d8")
+		)
+		(instances
+			(project "gachi_Master"
+				(path "/45c981da-2a3e-4b08-972c-887aae56a7e8"
+					(reference "X7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 325.12 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77a60d16-757c-493f-88d1-70914f95dc46")
+		(property "Reference" "X10"
+			(at 327.66 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 327.66 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical"
+			(at 325.12 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 325.12 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3613d9b-edd1-45d7-948f-b7e637152e26")
+		)
+		(pin "2"
+			(uuid "41706992-e0de-4370-9880-affe0c46ecbe")
+		)
+		(instances
+			(project "gachi_Master"
+				(path "/45c981da-2a3e-4b08-972c-887aae56a7e8"
+					(reference "X10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 325.12 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79bdffd2-73c0-4418-a6e9-c6c926ca4a32")
+		(property "Reference" "X15"
+			(at 327.66 184.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 327.66 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical"
+			(at 325.12 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 325.12 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05362dd7-8414-4dbd-a9d8-dab277210bab")
+		)
+		(pin "2"
+			(uuid "b140f4b5-1dfb-4631-8726-40f5f134e9eb")
+		)
+		(instances
+			(project "gachi_Master"
+				(path "/45c981da-2a3e-4b08-972c-887aae56a7e8"
+					(reference "X15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Interface_UART:MAX485E")
 		(at 210.82 148.59 0)
 		(unit 1)
@@ -2120,6 +3618,88 @@
 			(project "gachi_Master"
 				(path "/45c981da-2a3e-4b08-972c-887aae56a7e8"
 					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 325.12 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a11b7fef-8bdf-4455-b70e-0b6ba7fad52f")
+		(property "Reference" "X14"
+			(at 327.66 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 327.66 181.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical"
+			(at 325.12 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 325.12 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d598738-2520-4a5d-845d-6c48fc311de9")
+		)
+		(pin "2"
+			(uuid "ab8b7641-7c95-4e95-9a1e-31acc017d84c")
+		)
+		(instances
+			(project "gachi_Master"
+				(path "/45c981da-2a3e-4b08-972c-887aae56a7e8"
+					(reference "X14")
 					(unit 1)
 				)
 			)
@@ -2320,7 +3900,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 259.08 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -2369,8 +3949,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 231.14 143.51 0)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 325.12 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2378,29 +3958,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fc5d8009-1779-4256-96d9-677cec2092bc")
-		(property "Reference" "R11"
-			(at 235.712 142.494 0)
+		(fields_autoplaced yes)
+		(uuid "be2b2164-ee51-4f76-a3f0-d4d81d628305")
+		(property "Reference" "X9"
+			(at 327.66 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "120"
-			(at 235.712 145.034 0)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 327.66 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 229.362 143.51 90)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical"
+			(at 325.12 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2411,7 +3994,168 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 143.51 0)
+			(at 325.12 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 325.12 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7921b21b-5623-47d2-8aa6-fd3de6f0368e")
+		)
+		(pin "2"
+			(uuid "b5c7c685-d84d-42dc-a30d-3d1466a64636")
+		)
+		(instances
+			(project "gachi_Master"
+				(path "/45c981da-2a3e-4b08-972c-887aae56a7e8"
+					(reference "X9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 325.12 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f43b678e-aeb7-4b6d-811b-c638dee1008c")
+		(property "Reference" "X16"
+			(at 327.66 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 327.66 191.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical"
+			(at 325.12 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 325.12 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e31532aa-1c6b-415a-9d95-81f8ed3d9579")
+		)
+		(pin "2"
+			(uuid "0ea3f8b7-dd66-48d1-a5bb-2cd35639f855")
+		)
+		(instances
+			(project "gachi_Master"
+				(path "/45c981da-2a3e-4b08-972c-887aae56a7e8"
+					(reference "X16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 233.68 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc5d8009-1779-4256-96d9-677cec2092bc")
+		(property "Reference" "R11"
+			(at 238.252 142.494 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120"
+			(at 238.252 145.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 231.902 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2422,7 +4166,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 231.14 143.51 0)
+			(at 233.68 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2442,6 +4186,170 @@
 			(project "gachi_Master"
 				(path "/45c981da-2a3e-4b08-972c-887aae56a7e8"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 325.12 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc8a511f-1e8e-4c84-8a10-5b4c4d89694f")
+		(property "Reference" "X8"
+			(at 327.66 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 327.66 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical"
+			(at 325.12 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 325.12 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "451b46da-f18e-42fe-9e65-f7c2afdb46f5")
+		)
+		(pin "2"
+			(uuid "87bd0fe6-0518-440d-bd64-e9585e6c5ced")
+		)
+		(instances
+			(project "gachi_Master"
+				(path "/45c981da-2a3e-4b08-972c-887aae56a7e8"
+					(reference "X8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 325.12 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe963d4e-fff3-4f0c-8e20-7650646e94a3")
+		(property "Reference" "X11"
+			(at 327.66 163.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 327.66 166.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical"
+			(at 325.12 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 325.12 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16f8c78e-8dbb-4bda-a242-8b6e5ca73d2d")
+		)
+		(pin "2"
+			(uuid "5ae28824-ff57-48f4-836c-f1d99490d7d5")
+		)
+		(instances
+			(project "gachi_Master"
+				(path "/45c981da-2a3e-4b08-972c-887aae56a7e8"
+					(reference "X11")
 					(unit 1)
 				)
 			)

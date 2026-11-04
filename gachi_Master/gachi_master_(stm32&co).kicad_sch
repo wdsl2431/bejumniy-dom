@@ -5,6 +5,269 @@
 	(uuid "6b71de6c-7bb7-48a5-8d7c-3bf088c68c24")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -726,207 +989,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3721,6 +3783,12 @@
 		(uuid "71aab6ef-cf7d-44a1-9384-7007248c23c1")
 	)
 	(junction
+		(at 327.66 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0069cc20-7563-4d10-85cb-e6b1a25ff301")
+	)
+	(junction
 		(at 196.85 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3757,6 +3825,12 @@
 		(uuid "2c94a651-bd32-42a7-ba7b-9fb24c43d48c")
 	)
 	(junction
+		(at 316.23 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33b0ab4c-3eda-4746-8cac-6acbf0921cd8")
+	)
+	(junction
 		(at 217.17 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3791,6 +3865,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64e2c726-016b-4962-b17e-8773e9bce6ba")
+	)
+	(junction
+		(at 323.85 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66d7bc9e-3573-4c63-ab48-59f332aeb2b9")
 	)
 	(junction
 		(at 166.37 60.96)
@@ -3948,6 +4028,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 69.85) (xy 327.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0274db27-356f-4fca-9944-226092fd74ba")
+	)
+	(wire
+		(pts
 			(xy 166.37 53.34) (xy 173.99 53.34)
 		)
 		(stroke
@@ -4015,6 +4105,16 @@
 			(type default)
 		)
 		(uuid "1bcd4858-5534-4b97-a181-ae1e90a80ede")
+	)
+	(wire
+		(pts
+			(xy 237.49 162.56) (xy 241.3 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8677d6-9c28-46f4-a0a1-01d5c11912eb")
 	)
 	(wire
 		(pts
@@ -4188,13 +4288,13 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 160.02) (xy 259.08 160.02)
+			(xy 323.85 62.23) (xy 331.47 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41851df0-7813-481f-81d9-aa5b62c3e63b")
+		(uuid "420f23be-7b87-43f3-b737-5dd910408ddb")
 	)
 	(wire
 		(pts
@@ -4228,6 +4328,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 160.02) (xy 241.3 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cbea020-5ba5-4983-b320-5485cd40c791")
+	)
+	(wire
+		(pts
 			(xy 172.72 205.74) (xy 172.72 209.55)
 		)
 		(stroke
@@ -4245,6 +4355,16 @@
 			(type default)
 		)
 		(uuid "5f4ca241-11aa-4fd4-b948-b62277081f52")
+	)
+	(wire
+		(pts
+			(xy 316.23 92.71) (xy 321.31 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619fe4fe-c47b-4604-8b52-e8ea7ec251b3")
 	)
 	(wire
 		(pts
@@ -4308,6 +4428,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 93.98) (xy 316.23 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7687cd19-a5b3-4cf5-9a13-fb5f9c2b807d")
+	)
+	(wire
+		(pts
 			(xy 237.49 93.98) (xy 273.05 93.98)
 		)
 		(stroke
@@ -4338,6 +4468,26 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 69.85) (xy 331.47 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dfc54d1-4943-4806-a452-7ed7689f8a40")
+	)
+	(wire
+		(pts
+			(xy 311.15 87.63) (xy 321.31 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e061c04-9950-4139-a683-375488c54be3")
+	)
+	(wire
+		(pts
 			(xy 287.02 213.36) (xy 293.37 213.36)
 		)
 		(stroke
@@ -4345,16 +4495,6 @@
 			(type default)
 		)
 		(uuid "806aadde-a8e0-4025-a0c7-4b342c361829")
-	)
-	(wire
-		(pts
-			(xy 261.62 161.29) (xy 261.62 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "841e8214-5794-4d14-b1ce-f5a45f6c7bf4")
 	)
 	(wire
 		(pts
@@ -4418,6 +4558,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 85.09) (xy 316.23 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "939bf184-f5a3-4831-94b0-6e76a1e13c24")
+	)
+	(wire
+		(pts
 			(xy 189.23 53.34) (xy 196.85 53.34)
 		)
 		(stroke
@@ -4478,6 +4628,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 85.09) (xy 316.23 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fb31748-f692-4c2d-976e-7221cb0f1652")
+	)
+	(wire
+		(pts
 			(xy 125.73 78.74) (xy 175.26 78.74)
 		)
 		(stroke
@@ -4495,6 +4655,16 @@
 			(type default)
 		)
 		(uuid "a2ff34e7-2a36-4561-8d15-8004d8997ec0")
+	)
+	(wire
+		(pts
+			(xy 311.15 62.23) (xy 323.85 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4452bba-80aa-4020-bd69-5fed368337ec")
 	)
 	(wire
 		(pts
@@ -4525,6 +4695,16 @@
 			(type default)
 		)
 		(uuid "b1226e7e-3523-4439-8cb6-ab59bff472c0")
+	)
+	(wire
+		(pts
+			(xy 311.15 90.17) (xy 321.31 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b177aca0-242e-4277-8718-40a3f9f1b565")
 	)
 	(wire
 		(pts
@@ -4788,16 +4968,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 160.02) (xy 240.03 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f199e20c-3a39-45c3-b728-f001fe240cae")
-	)
-	(wire
-		(pts
 			(xy 151.13 60.96) (xy 158.75 60.96)
 		)
 		(stroke
@@ -4815,16 +4985,6 @@
 			(type default)
 		)
 		(uuid "f85bf26f-7129-475d-8006-9c13702a10c1")
-	)
-	(wire
-		(pts
-			(xy 247.65 160.02) (xy 251.46 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8a5d0cb-0f13-484b-895f-2bc300d13580")
 	)
 	(wire
 		(pts
@@ -6010,6 +6170,30 @@
 			)
 		)
 	)
+	(global_label "DWIN_RX"
+		(shape input)
+		(at 311.15 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e3916fc-66ef-4bb1-8d31-d52b4f0ca862")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 300.061 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "ESP_TX"
 		(shape input)
 		(at 250.19 91.44 0)
@@ -6031,6 +6215,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "3,3 В"
+		(shape input)
+		(at 311.15 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32fa2db7-208e-4e37-994b-f9b35c755f4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 302.9034 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -6250,6 +6458,78 @@
 			)
 		)
 	)
+	(global_label "STM_LED_ERROR"
+		(shape input)
+		(at 241.3 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "962a20ab-d74c-4b30-a4a6-ddd3a6af42cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.5855 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "STM_LED_STATE"
+		(shape input)
+		(at 241.3 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8c7bd05-8216-47e2-9ba2-b193c0b157ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.6783 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "DWIN_TX"
+		(shape input)
+		(at 311.15 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b32756cd-f2b2-44b0-8e55-a0464435ea8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 300.3634 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "OSC_OUT_HSE"
 		(shape input)
 		(at 147.32 133.35 90)
@@ -6419,6 +6699,12 @@
 			(uuid "bb1284b0-7877-4461-8610-7ea84acc8f13")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "C21")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "C21")
@@ -6500,6 +6786,12 @@
 			(uuid "412a386e-9d45-43bb-a6d2-c5a06a156957")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "C15")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "C15")
@@ -6578,6 +6870,12 @@
 			(uuid "d38013df-c385-43ce-91e4-afb45b6cfc63")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "#PWR024")
@@ -6657,6 +6955,12 @@
 			(uuid "5edb247a-6f63-4396-aad2-278525b9c8a3")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "R7")
@@ -6735,6 +7039,12 @@
 			(uuid "e55dbd6e-48a0-4a58-82d8-e8b9fa7c5ab7")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "#PWR019")
@@ -6777,7 +7087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
 			(at 259.08 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6823,9 +7133,93 @@
 			(uuid "b81c6150-8f1e-4f2d-b813-55641d895f3f")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "X2")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "X2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 316.23 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14908e7a-eb64-4142-9018-6dff6f12de27")
+		(property "Reference" "#PWR036"
+			(at 316.23 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 316.23 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 316.23 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 316.23 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9a192a1-470d-4b26-8dab-9eec6dbefcbb")
+		)
+		(instances
+			(project "gachi_Master"
+				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -6903,6 +7297,12 @@
 			(uuid "b3b5c9e3-4dbb-4910-ac59-f5cc2e7d6a87")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "ZQ1")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "ZQ1")
@@ -6984,9 +7384,103 @@
 			(uuid "91cdd99d-14b0-4ed4-a8bb-d19c3ed091ff")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "C17")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 326.39 87.63 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b142019-0331-4ab0-8991-4f90776562ab")
+		(property "Reference" "X6"
+			(at 327.66 90.1701 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 327.66 87.6301 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 326.39 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 326.39 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b7c50ba4-0fdb-42a8-976d-af7f1e839500")
+		)
+		(pin "2"
+			(uuid "17abdf26-33b0-4c50-aa14-c67324b194ca")
+		)
+		(pin "4"
+			(uuid "957c8ec6-a1b4-4ef0-9817-b3ed0798306e")
+		)
+		(pin "1"
+			(uuid "ef0e43a0-607f-447a-afda-1ff938521bb7")
+		)
+		(instances
+			(project "gachi_Master"
+				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
+					(reference "X6")
 					(unit 1)
 				)
 			)
@@ -7065,9 +7559,96 @@
 			(uuid "33a82b29-1640-4f62-a902-5b596bfd9750")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "C32")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 331.47 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "20d67aaf-6103-4cfe-a9e0-49a7c1373397")
+		(property "Reference" "C42"
+			(at 329.692 57.658 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1мкФ"
+			(at 328.422 60.198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 332.4352 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 331.47 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3ee690ce-7ad2-4b8a-9e4f-3d28c50941db")
+		)
+		(pin "1"
+			(uuid "3b33d43d-d2ce-42aa-875f-754ce2d7f839")
+		)
+		(instances
+			(project "gachi_Master"
+				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -7145,6 +7726,12 @@
 			(uuid "38cd54be-dd88-4a5c-a3fd-4193b755e256")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "R4")
@@ -7226,6 +7813,12 @@
 			(uuid "83d2fda3-58a4-40fb-bdaa-b4d1f9a61ebe")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "C20")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "C20")
@@ -7307,6 +7900,12 @@
 			(uuid "0fd090db-2fc7-4aff-ae4b-e2f74393b953")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "C22")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "C22")
@@ -7316,8 +7915,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 261.62 161.29 0)
+		(lib_id "Device:C")
+		(at 323.85 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7325,31 +7924,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34dd7567-e072-41a7-8228-69c306579a44")
-		(property "Reference" "#PWR021"
-			(at 261.62 167.64 0)
-			(hide yes)
+		(uuid "39ab6307-f971-48e8-aced-7921191ad3a9")
+		(property "Reference" "C41"
+			(at 321.564 56.642 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 261.62 166.37 0)
+		(property "Value" "0,1мкФ"
+			(at 319.786 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 261.62 161.29 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 324.8152 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7360,7 +7959,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 161.29 0)
+			(at 323.85 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7370,8 +7969,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 261.62 161.29 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 323.85 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7380,14 +7979,17 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "d5239a05-6914-44ae-bdf8-5a5ac7d8c308")
 		)
 		(pin "1"
-			(uuid "2da11bbb-d546-4f7d-b48e-0a12d83c1910")
+			(uuid "521f6b61-c1b1-41dd-adc9-0cb0356116b6")
 		)
 		(instances
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
-					(reference "#PWR021")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -7463,6 +8065,12 @@
 			(uuid "bdf95263-ab4c-42cc-a1c6-3e2fc9d3a6b0")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "#PWR022")
@@ -7544,6 +8152,12 @@
 			(uuid "3beaba5d-de84-406b-926d-4e478ebc2c38")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "C25")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "C25")
@@ -7622,6 +8236,12 @@
 			(uuid "d9b9613e-a80b-4011-b17a-717989117bd2")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "#PWR09")
@@ -7700,6 +8320,12 @@
 			(uuid "5398b598-4880-45ae-b6b3-32f87df64a56")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "#PWR018")
@@ -7742,7 +8368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
 			(at 222.25 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7782,6 +8408,12 @@
 			(uuid "dd7e0e82-d82a-476d-8472-1125abd2fb96")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "L2")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "L2")
@@ -7860,6 +8492,12 @@
 			(uuid "42485e46-42d5-44da-aca7-a50281545d97")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "#PWR014")
@@ -7941,6 +8579,12 @@
 			(uuid "e33677f5-9105-43c3-b41e-c6a85c4cf8ce")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "C26")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "C26")
@@ -8019,99 +8663,15 @@
 			(uuid "b9644309-aa69-4dba-b513-233adb9646e0")
 		)
 		(instances
-			(project "gachi_Master"
-				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
 					(reference "#PWR017")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 243.84 160.02 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "78e265f1-1cfc-40c2-a87d-9a4f07488546")
-		(property "Reference" "VD1"
-			(at 244.602 154.178 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 244.602 156.718 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 243.84 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 243.84 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 243.84 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "12200443-a8dc-4e13-bd51-2ad085d49a43")
-		)
-		(pin "1"
-			(uuid "ce86fc49-9315-4750-b4f9-c78fc7986b25")
-		)
-		(instances
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
-					(reference "VD1")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8187,6 +8747,12 @@
 			(uuid "43f7bf2b-f3e3-4677-bff5-5500947fe6a5")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "#PWR012")
@@ -8268,6 +8834,12 @@
 			(uuid "aa8c20dc-50ae-4ea4-8f4f-17d5a7cb4d84")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "C18")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "C18")
@@ -8349,6 +8921,12 @@
 			(uuid "1a6e40b0-1f5d-4a2b-a7cf-79ac834c75ab")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "C30")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "C30")
@@ -8427,6 +9005,12 @@
 			(uuid "a53e9ea6-9430-476e-a9d8-a5a302751e4a")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "#PWR023")
@@ -8508,6 +9092,12 @@
 			(uuid "b74f8ad3-70b4-4aef-af50-d1b250f3dbc4")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "C19")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "C19")
@@ -8586,6 +9176,12 @@
 			(uuid "136dae3a-87db-4c5e-bd85-8b09cc53ff36")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "#PWR016")
@@ -8667,6 +9263,12 @@
 			(uuid "bda0e873-c061-4141-b068-89cdc7ad866f")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "C27")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "C27")
@@ -8745,6 +9347,12 @@
 			(uuid "110a9ffe-d4d8-41d3-831f-9ff7e4ed50b7")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "#PWR025")
@@ -8826,88 +9434,15 @@
 			(uuid "e2c4cdfe-5226-420f-a8d7-fa1b4a60c7f3")
 		)
 		(instances
-			(project "gachi_Master"
-				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
 					(reference "C16")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 255.27 160.02 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bc9fff5c-b07c-4847-950d-626d5d8416b4")
-		(property "Reference" "R8"
-			(at 255.27 155.194 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "300"
-			(at 255.27 157.734 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 255.27 161.798 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 255.27 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1bcb0f2a-2b0b-4fc6-bc97-a797c6f3fedf")
-		)
-		(pin "2"
-			(uuid "6a0f3c83-76c1-4f0f-8e09-b2dfaa4dbbdb")
-		)
-		(instances
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
-					(reference "R8")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -8947,7 +9482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
 			(at 130.81 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8987,6 +9522,12 @@
 			(uuid "a5de9747-091f-4d8e-a001-6d9e778ec899")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "SW2")
@@ -9027,7 +9568,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_AT310_D3.0mm_L10.0mm_Horizontal"
 			(at 297.18 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -9067,6 +9608,12 @@
 			(uuid "6f6c0cc4-d036-4642-998b-cc9de83da242")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "ZQ2")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "ZQ2")
@@ -9148,9 +9695,93 @@
 			(uuid "8312ef0a-e06a-455a-8293-9a36b63e416f")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 327.66 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3b92154-03e0-472f-850f-68aff68ea4a6")
+		(property "Reference" "#PWR037"
+			(at 327.66 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 327.66 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 327.66 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 327.66 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d3d6e10-6d26-48d6-b3f4-9f5c76a7b9dc")
+		)
+		(instances
+			(project "gachi_Master"
+				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9226,6 +9857,12 @@
 			(uuid "61a2d38b-e49c-4fba-82a1-02bbf6e1f06a")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "#PWR015")
@@ -9306,6 +9943,12 @@
 			(uuid "d5964369-3dee-4f7a-96bb-b1cec4ea2a22")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "R3")
@@ -9387,6 +10030,12 @@
 			(uuid "eb859a40-95f0-4814-b1a3-92db985b3852")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "C13")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "C13")
@@ -9465,6 +10114,12 @@
 			(uuid "3aa87a03-2a45-4956-85c0-650e8134c919")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "#PWR010")
@@ -9546,6 +10201,12 @@
 			(uuid "6974e1f4-0e7a-447f-885e-a51ec41d320b")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "C23")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "C23")
@@ -9627,6 +10288,12 @@
 			(uuid "99c167c1-57f1-4899-b5b4-6ce1caf7879e")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "C31")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "C31")
@@ -9705,6 +10372,12 @@
 			(uuid "83cabbbf-0aac-4ebe-b24f-bc9854c6f524")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "#PWR020")
@@ -9787,6 +10460,12 @@
 			(uuid "2b0ed34a-1214-4048-a77b-b6719c170b54")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "C28")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "C28")
@@ -9865,6 +10544,12 @@
 			(uuid "27b60d04-ee6a-4ba0-8b12-6de81b9903c8")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "#PWR013")
@@ -9946,6 +10631,12 @@
 			(uuid "8b5279f1-ae47-4a32-a71e-1d9ca553a1fc")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "C24")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "C24")
@@ -10027,6 +10718,12 @@
 			(uuid "8e9950ff-8aa6-4aba-83be-688eb3f3d6c2")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "C29")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "C29")
@@ -10403,6 +11100,12 @@
 			(uuid "14dba897-fd56-46c7-b3d1-2d2ef97d3722")
 		)
 		(instances
+			(project "gachi_master_(stm32&co)"
+				(path "/6b71de6c-7bb7-48a5-8d7c-3bf088c68c24"
+					(reference "DD3")
+					(unit 1)
+				)
+			)
 			(project "gachi_Master"
 				(path "/ab3207bc-bcd8-4d0f-899e-74aada9f2221"
 					(reference "DD3")
