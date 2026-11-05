@@ -5,7 +5,7 @@
 	(uuid "0d2d5d49-523e-4a89-9bce-d5c85f461f0f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x07_Pin"
+		(symbol "Connector:Conn_01x08_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -25,8 +25,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x07_Pin"
-				(at 0 -10.16 0)
+			(property "Value" "Conn_01x08_Pin"
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -57,7 +57,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x07, script generated"
+			(property "Description" "Generic connector, single row, 01x08, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -100,7 +100,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x07_Pin_1_1"
+			(symbol "Conn_01x08_Pin_1_1"
 				(rectangle
 					(start 0.8636 7.747)
 					(end 0 7.493)
@@ -170,6 +170,17 @@
 				(rectangle
 					(start 0.8636 -7.493)
 					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -10.033)
+					(end 0 -10.287)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -253,6 +264,18 @@
 				(polyline
 					(pts
 						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -10.16) (xy 0.8636 -10.16)
 					)
 					(stroke
 						(width 0.1524)
@@ -388,10 +411,28 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 5.08 -10.16 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x07_Socket"
+		(symbol "Connector:Conn_01x08_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -411,8 +452,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x07_Socket"
-				(at 0 -10.16 0)
+			(property "Value" "Conn_01x08_Socket"
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -443,7 +484,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x07, script generated"
+			(property "Description" "Generic connector, single row, 01x08, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -486,7 +527,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x07_Socket_1_1"
+			(symbol "Conn_01x08_Socket_1_1"
 				(polyline
 					(pts
 						(xy -1.27 7.62) (xy -0.508 7.62)
@@ -562,6 +603,18 @@
 				(polyline
 					(pts
 						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -10.16) (xy -0.508 -10.16)
 					)
 					(stroke
 						(width 0.1524)
@@ -647,6 +700,18 @@
 					(start 0 -8.128)
 					(mid -0.5058 -7.62)
 					(end 0 -7.112)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -10.668)
+					(mid -0.5058 -10.16)
+					(end 0 -9.652)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -774,6 +839,24 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1296,6 +1379,18 @@
 		(uuid "174c37b9-bdd7-4473-8bba-1291fb31a507")
 	)
 	(junction
+		(at 219.71 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e6d4804-cfcd-4d18-9d19-e4317351c967")
+	)
+	(junction
+		(at 219.71 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "651069fb-e4dd-4479-8f04-bb4a04e2034a")
+	)
+	(junction
 		(at 170.18 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1312,6 +1407,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1adf7c6-9f98-42a1-8cdc-9d1eb93fc8ef")
+	)
+	(junction
+		(at 219.71 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6da1606-b94a-4b71-a0e1-6e177187720a")
 	)
 	(junction
 		(at 151.13 91.44)
@@ -1351,7 +1452,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 93.98) (xy 170.18 93.98)
+			(xy 137.16 93.98) (xy 170.18 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1371,13 +1472,23 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 120.65) (xy 219.71 119.38)
+			(xy 107.95 99.06) (xy 110.49 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32ddb6d6-d207-49a2-bb9a-390161fed6fb")
+		(uuid "2b481fd3-c148-4fea-aed4-979c8961b18e")
+	)
+	(wire
+		(pts
+			(xy 107.95 102.87) (xy 107.95 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f26aeca-c207-443c-915d-4356eb769645")
 	)
 	(wire
 		(pts
@@ -1388,6 +1499,26 @@
 			(type default)
 		)
 		(uuid "411ac44b-b1f4-4fc9-b42c-0b45f651d701")
+	)
+	(wire
+		(pts
+			(xy 219.71 119.38) (xy 219.71 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41bf6378-d766-4e80-a71e-ff877399c9f3")
+	)
+	(wire
+		(pts
+			(xy 219.71 106.68) (xy 219.71 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e2f714-0303-4798-a77a-1c106166c8e8")
 	)
 	(wire
 		(pts
@@ -1411,13 +1542,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 82.55) (xy 219.71 81.28)
+			(xy 219.71 123.19) (xy 139.7 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "529fb710-6ed9-4add-8b51-4ac86c3d0d6d")
+		(uuid "52a4c949-f632-41b5-af9c-20b0a9ceb55e")
 	)
 	(wire
 		(pts
@@ -1431,6 +1562,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 81.28) (xy 219.71 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a891e3-b9b1-4629-a9e0-c0ae175fe416")
+	)
+	(wire
+		(pts
 			(xy 194.31 106.68) (xy 198.12 106.68)
 		)
 		(stroke
@@ -1438,16 +1579,6 @@
 			(type default)
 		)
 		(uuid "5bcc9147-f80b-4954-a0c1-009f37e9c01a")
-	)
-	(wire
-		(pts
-			(xy 219.71 95.25) (xy 219.71 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5feee3dd-db76-4d23-afe5-4dae042b8ffb")
 	)
 	(wire
 		(pts
@@ -1501,7 +1632,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 88.9) (xy 191.77 88.9)
+			(xy 219.71 93.98) (xy 219.71 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "725196b8-ce25-4f15-a5d2-6bbaeab6b2d1")
+	)
+	(wire
+		(pts
+			(xy 137.16 88.9) (xy 191.77 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1511,13 +1652,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 107.95) (xy 219.71 106.68)
+			(xy 139.7 123.19) (xy 139.7 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ba81c91-04a7-40cc-a0b4-c50846c20866")
+		(uuid "777aea09-9166-429e-8058-b8267ca7715d")
 	)
 	(wire
 		(pts
@@ -1541,7 +1682,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 86.36) (xy 194.31 86.36)
+			(xy 137.16 86.36) (xy 194.31 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1558,6 +1699,16 @@
 			(type default)
 		)
 		(uuid "9cbbec4f-2cda-4df0-8e88-79d0515ad17b")
+	)
+	(wire
+		(pts
+			(xy 139.7 99.06) (xy 137.16 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a895bed6-4861-4386-bb83-beb7c8a69101")
 	)
 	(wire
 		(pts
@@ -1601,7 +1752,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 81.28) (xy 198.12 81.28)
+			(xy 137.16 81.28) (xy 198.12 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1681,7 +1832,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 83.82) (xy 198.12 83.82)
+			(xy 137.16 83.82) (xy 198.12 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1701,7 +1852,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 96.52) (xy 142.24 96.52)
+			(xy 137.16 96.52) (xy 142.24 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1711,7 +1862,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 91.44) (xy 151.13 91.44)
+			(xy 137.16 91.44) (xy 151.13 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1948,84 +2099,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 219.71 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b7cdc36-5b6b-4b5d-8e26-8f1825c158a8")
-		(property "Reference" "#PWR040"
-			(at 219.71 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 219.71 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 219.71 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "64f3b167-7ce8-4b3f-a6ca-8474ed2e40ad")
-		)
-		(instances
-			(project "gachi_Master"
-				(path "/2acb42a7-46cb-4560-9dc1-96724f654265"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 179.07 109.22 270)
 		(unit 1)
@@ -2036,7 +2109,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17954f9c-1ded-4bf5-97eb-6343a42dadc9")
-		(property "Reference" "VD5"
+		(property "Reference" "VD4"
 			(at 184.15 110.236 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2109,7 +2182,7 @@
 		(instances
 			(project "gachi_Master"
 				(path "/2acb42a7-46cb-4560-9dc1-96724f654265"
-					(reference "VD5")
+					(reference "VD4")
 					(unit 1)
 				)
 			)
@@ -2126,7 +2199,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e7c7991-bdf7-449b-97af-486b7b0ca662")
-		(property "Reference" "VD9"
+		(property "Reference" "VD8"
 			(at 202.692 113.538 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2199,15 +2272,15 @@
 		(instances
 			(project "gachi_Master"
 				(path "/2acb42a7-46cb-4560-9dc1-96724f654265"
-					(reference "VD9")
+					(reference "VD8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 219.71 95.25 0)
+		(lib_id "Connector:Conn_01x08_Pin")
+		(at 132.08 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2215,11 +2288,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "267ce578-22c0-40ae-addd-476861abaa56")
-		(property "Reference" "#PWR038"
-			(at 219.71 101.6 0)
-			(hide yes)
+		(uuid "288177da-e866-4d72-b7d0-bd4257383c4b")
+		(property "Reference" "X19"
+			(at 134.874 74.422 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2228,8 +2299,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 219.71 100.33 0)
+		(property "Value" "Conn_01x08_Pin"
+			(at 134.874 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2238,8 +2309,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 219.71 95.25 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 132.08 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2250,7 +2321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 95.25 0)
+			(at 132.08 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2260,8 +2331,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 219.71 95.25 0)
+		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 132.08 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2270,14 +2341,35 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "5"
+			(uuid "6fd89cd0-8455-4bf4-ab72-3426ace1dfdb")
+		)
+		(pin "2"
+			(uuid "f9bdcd6d-e7bc-4446-b5a7-a8416cf55bcc")
+		)
+		(pin "4"
+			(uuid "34a0a0aa-3cf4-457b-99fa-2b11a76a1043")
+		)
+		(pin "6"
+			(uuid "aeea65ae-a6b2-4ba6-8ac6-f34736116eb7")
+		)
+		(pin "7"
+			(uuid "eef9e995-bb0b-42de-840a-eb5d5e6f2357")
+		)
+		(pin "3"
+			(uuid "2cf4faf6-7966-43b6-8eef-6d6247dfa60c")
 		)
 		(pin "1"
-			(uuid "500373ed-b02e-4ce9-8ceb-e46c1828ab8a")
+			(uuid "482b60a3-1211-4f62-b0de-3c8ce01ae967")
+		)
+		(pin "8"
+			(uuid "25850e3e-f78c-4544-9876-803a8a5e6cb4")
 		)
 		(instances
 			(project "gachi_Master"
 				(path "/2acb42a7-46cb-4560-9dc1-96724f654265"
-					(reference "#PWR038")
+					(reference "X19")
 					(unit 1)
 				)
 			)
@@ -2294,7 +2386,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "317fdb56-5fd7-4cfe-9488-bb7026f0ed1e")
-		(property "Reference" "VD2"
+		(property "Reference" "VD1"
 			(at 155.702 108.458 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2367,7 +2459,7 @@
 		(instances
 			(project "gachi_Master"
 				(path "/2acb42a7-46cb-4560-9dc1-96724f654265"
-					(reference "VD2")
+					(reference "VD1")
 					(unit 1)
 				)
 			)
@@ -2375,7 +2467,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 219.71 82.55 0)
+		(at 107.95 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2384,9 +2476,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "36d0aaa2-5651-4a71-a1d2-e617b1c39a96")
-		(property "Reference" "#PWR021"
-			(at 219.71 88.9 0)
+		(uuid "489bc657-66ce-4e65-a554-a0adf847cc8b")
+		(property "Reference" "#PWR041"
+			(at 107.95 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2397,7 +2489,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 87.63 0)
+			(at 107.95 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2407,7 +2499,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 82.55 0)
+			(at 107.95 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2418,7 +2510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 82.55 0)
+			(at 107.95 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2429,7 +2521,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 219.71 82.55 0)
+			(at 107.95 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2440,108 +2532,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "18379f43-b7ac-4cab-8d81-d9ddbb89c81b")
+			(uuid "a267ec0b-9c97-413d-a98f-52d684abad1a")
 		)
 		(instances
 			(project "gachi_Master"
 				(path "/2acb42a7-46cb-4560-9dc1-96724f654265"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x07_Socket")
-		(at 115.57 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "562c3942-785a-4f33-8a9a-9ca66636c03b")
-		(property "Reference" "X18"
-			(at 112.522 76.454 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x07_Socket"
-			(at 104.902 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical"
-			(at 115.57 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 115.57 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "52987bd7-b0ba-40ff-8490-041af2d8729a")
-		)
-		(pin "1"
-			(uuid "12fd2235-0fce-42df-99c7-dbbcd64f5398")
-		)
-		(pin "4"
-			(uuid "39545daf-eaf2-4184-bbef-c4a4c5855327")
-		)
-		(pin "5"
-			(uuid "f96cdbf8-aec7-4a5e-bb94-476c4d2d3c99")
-		)
-		(pin "3"
-			(uuid "64d6c203-247f-4a26-a12b-2ad4e20f872d")
-		)
-		(pin "2"
-			(uuid "483d6cff-fec2-4a84-9c1e-3d32c1b10fbd")
-		)
-		(pin "7"
-			(uuid "21629c62-889e-4558-8e32-1bef4ee6d015")
-		)
-		(instances
-			(project "gachi_Master"
-				(path "/2acb42a7-46cb-4560-9dc1-96724f654265"
-					(reference "X18")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -2558,7 +2554,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f20f68a-42da-4c85-a470-cf9ab6af27da")
-		(property "Reference" "VD7"
+		(property "Reference" "VD6"
 			(at 202.692 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2631,7 +2627,106 @@
 		(instances
 			(project "gachi_Master"
 				(path "/2acb42a7-46cb-4560-9dc1-96724f654265"
-					(reference "VD7")
+					(reference "VD6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x08_Socket")
+		(at 115.57 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "628e8314-ff83-47a0-8f4a-d0fbf5ee7849")
+		(property "Reference" "X18"
+			(at 103.632 74.676 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x08_Socket"
+			(at 103.632 77.216 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+			(at 115.57 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 115.57 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "fceb8b5d-6f5a-4443-90f1-c845e8645117")
+		)
+		(pin "1"
+			(uuid "ab3ab4eb-bd16-493f-8383-598843fd3945")
+		)
+		(pin "3"
+			(uuid "db729020-3af9-45e1-927e-750cb7ba2456")
+		)
+		(pin "5"
+			(uuid "4cf7da23-9fcd-4ca3-912c-88e13c5d7b37")
+		)
+		(pin "8"
+			(uuid "f791e930-749f-4536-aed4-8c43e46156e2")
+		)
+		(pin "4"
+			(uuid "b58b9222-d2f9-4675-85b6-276ca0d3f135")
+		)
+		(pin "6"
+			(uuid "29df862f-3705-4a96-b049-75ce8a1190df")
+		)
+		(pin "2"
+			(uuid "d026f373-9f22-4991-a4aa-db8d069b6e8a")
+		)
+		(instances
+			(project "gachi_Master"
+				(path "/2acb42a7-46cb-4560-9dc1-96724f654265"
+					(reference "X18")
 					(unit 1)
 				)
 			)
@@ -2886,101 +2981,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x07_Pin")
-		(at 134.62 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8cb784c4-f846-4df3-a04e-4d836d3da915")
-		(property "Reference" "X19"
-			(at 135.255 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x07_Pin"
-			(at 135.255 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
-			(at 134.62 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 134.62 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "5ad65fdc-58cf-420d-b269-7a7b133ac93c")
-		)
-		(pin "2"
-			(uuid "cdd54888-745b-471e-bcd2-4102f9079c38")
-		)
-		(pin "3"
-			(uuid "400c18ff-a243-48be-80dd-cde91ac3e48b")
-		)
-		(pin "1"
-			(uuid "fdbce335-ff85-41fa-8613-377c5ef0f289")
-		)
-		(pin "4"
-			(uuid "1d6b7306-a637-4813-b328-5fc384deeb92")
-		)
-		(pin "6"
-			(uuid "d184015b-417f-48e1-ba47-10d96516d221")
-		)
-		(pin "7"
-			(uuid "f8ead8eb-eeb4-4ab0-8d1b-6e91dd1c62a6")
-		)
-		(instances
-			(project "gachi_Master"
-				(path "/2acb42a7-46cb-4560-9dc1-96724f654265"
-					(reference "X19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 201.93 106.68 180)
 		(unit 1)
@@ -2991,7 +2991,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9555b4fb-a9a2-4ef1-a871-8d83110d8d9e")
-		(property "Reference" "VD8"
+		(property "Reference" "VD7"
 			(at 202.692 100.838 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3064,7 +3064,7 @@
 		(instances
 			(project "gachi_Master"
 				(path "/2acb42a7-46cb-4560-9dc1-96724f654265"
-					(reference "VD8")
+					(reference "VD7")
 					(unit 1)
 				)
 			)
@@ -3160,7 +3160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3b9af00-c627-4e31-96f1-b5baebce2fc2")
-		(property "Reference" "VD1"
+		(property "Reference" "VD5"
 			(at 202.692 75.438 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3233,7 +3233,7 @@
 		(instances
 			(project "gachi_Master"
 				(path "/2acb42a7-46cb-4560-9dc1-96724f654265"
-					(reference "VD1")
+					(reference "VD5")
 					(unit 1)
 				)
 			)
@@ -3250,7 +3250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac371ec8-1833-4c35-8f72-a1345a1f7816")
-		(property "Reference" "VD4"
+		(property "Reference" "VD2"
 			(at 165.735 110.617 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3323,85 +3323,7 @@
 		(instances
 			(project "gachi_Master"
 				(path "/2acb42a7-46cb-4560-9dc1-96724f654265"
-					(reference "VD4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 219.71 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ccbb097e-f6ca-4507-b158-262d046e703b")
-		(property "Reference" "#PWR039"
-			(at 219.71 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 219.71 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 219.71 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7200319e-9026-4eb7-8747-0a17a15b8c4e")
-		)
-		(instances
-			(project "gachi_Master"
-				(path "/2acb42a7-46cb-4560-9dc1-96724f654265"
-					(reference "#PWR039")
+					(reference "VD2")
 					(unit 1)
 				)
 			)

@@ -1717,7 +1717,7 @@
 		)
 	)
 	(junction
-		(at 279.4 124.46)
+		(at 279.4 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1af6524e-f232-40ed-acf8-62303d2b8b8f")
@@ -1727,12 +1727,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b6e7e10-9b01-4205-8480-38bb97b8ab68")
-	)
-	(junction
-		(at 279.4 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d60d2d0-f745-4661-bda2-ee6ff9129c5f")
 	)
 	(junction
 		(at 246.38 143.51)
@@ -1860,7 +1854,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 134.62) (xy 267.97 135.89)
+			(xy 267.97 129.54) (xy 267.97 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1990,23 +1984,13 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 124.46) (xy 267.97 124.46)
+			(xy 279.4 119.38) (xy 267.97 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "82cffec3-4af8-46ac-b1c4-d499c452e8f7")
-	)
-	(wire
-		(pts
-			(xy 267.97 135.89) (xy 279.4 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "857f6581-6e38-4e38-9dbd-5bc48bfb1308")
 	)
 	(wire
 		(pts
@@ -2030,7 +2014,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 124.46) (xy 279.4 135.89)
+			(xy 279.4 119.38) (xy 279.4 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2140,7 +2124,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 124.46) (xy 279.4 124.46)
+			(xy 283.21 119.38) (xy 279.4 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2180,7 +2164,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 124.46) (xy 267.97 127)
+			(xy 267.97 119.38) (xy 267.97 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2484,7 +2468,7 @@
 	)
 	(global_label "3,3 В"
 		(shape input)
-		(at 283.21 124.46 0)
+		(at 283.21 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2494,7 +2478,7 @@
 		)
 		(uuid "e26d438c-970c-4d45-8af4-8139fbfbc785")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 291.4566 124.46 0)
+			(at 291.4566 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3366,7 +3350,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 292.1 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -3421,6 +3405,84 @@
 			(project "gachi_Master"
 				(path "/a284556f-afbb-4c65-88e8-5140b6918fac"
 					(reference "X3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 267.97 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb8f9c86-e329-4479-b0ae-3901ad2024cb")
+		(property "Reference" "#PWR038"
+			(at 267.97 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 267.97 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a62e974f-22f7-4126-aa8c-e0db4d8b0aaf")
+		)
+		(instances
+			(project "gachi_Master"
+				(path "/a284556f-afbb-4c65-88e8-5140b6918fac"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -3506,7 +3568,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 267.97 130.81 0)
+		(at 267.97 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3516,7 +3578,7 @@
 		(dnp no)
 		(uuid "e78a65aa-2203-45e3-baf9-841a1cd0e776")
 		(property "Reference" "C36"
-			(at 273.05 128.778 0)
+			(at 273.05 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3527,7 +3589,7 @@
 			)
 		)
 		(property "Value" "0,1мкФ"
-			(at 271.272 131.572 0)
+			(at 271.272 126.492 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3538,7 +3600,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 268.9352 134.62 0)
+			(at 268.9352 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3549,7 +3611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 130.81 0)
+			(at 267.97 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3560,7 +3622,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 267.97 130.81 0)
+			(at 267.97 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
